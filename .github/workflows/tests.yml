@@ -5,7 +5,7 @@ on:
 
 jobs:
     configure:
-        runs-on: ubuntu-latest
+        runs-on: emone
         outputs:
             uid_gid: ${{ env.UID_GID }}
         steps:
