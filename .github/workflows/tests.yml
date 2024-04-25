@@ -13,7 +13,7 @@ jobs:
             run: echo "UID_GID=$(id -u):$(id -g)" >> $GITHUB_ENV
 
     test:
-        runs-on: ubuntu-latest
+        runs-on: emone
         needs: configure
         container: 
             image: ghcr.io/wopee-io/runtime
